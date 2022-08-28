@@ -37,7 +37,9 @@ var colorOfButton = 0
             view.backgroundColor = .purple
         default: view.backgroundColor = .black
     }
-
+        if colorOfButton > 7 {
+            colorOfButton = 0
+        }
 }
 
 }
